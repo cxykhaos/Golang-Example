@@ -1,7 +1,6 @@
-package wechat
+package tool
 
 import (
-	"FileCloud/utils"
 	"encoding/xml"
 	"fmt"
 	"log"
@@ -103,5 +102,5 @@ func CheckSignature(signature, timestamp, nonce, token string) bool {
 		b.WriteString(arr[i])
 	}
 
-	return utils.Sha1(b.String()) == signature
+	return b.String() == signature
 }

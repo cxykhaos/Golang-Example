@@ -1,4 +1,4 @@
-package qiniu
+package tool
 
 import (
 	"context"
