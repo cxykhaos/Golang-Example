@@ -1,6 +1,8 @@
 # Golang-Example
 
-##
+## 项目介绍
+这个项目目的是存储Golang常用的一些代码
+QQ:992308975
 
 
 ### MultipleDownload
